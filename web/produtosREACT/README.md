@@ -1,16 +1,31 @@
-# React + Vite
+# Produtos React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um sistema simples de gerenciamento de produtos desenvolvido com **React**, **React Router**, **Axios** e **Material-UI**.  
+Permite listar, cadastrar, editar e excluir produtos de forma interativa.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📝 Funcionalidades
 
-## React Compiler
+- Listar todos os produtos (`ID`, `Nome`, `Preço` e `Descrição`)
+- Cadastrar novo produto
+- Editar produto existente
+- Excluir produto
+- Navegação com **NavBar** entre "Produtos" e "Novo Produto"
+- Layout estilizado com cores **vermelho e preto**, centralizado e responsivo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ⚙️ Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)
+- [React Router](https://reactrouter.com/)
+- [Axios](https://axios-http.com/)
+- [Material-UI](https://mui.com/)
+- [Node.js](https://nodejs.org/)
+
+---
+
+## 📂 Estrutura do Projeto
+
+
